@@ -1,0 +1,363 @@
+body{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+div.nbar:hover{
+    background-color: #eeeeee;
+    border-radius: 10px;
+
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+div.logo-header{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 45px;
+
+}
+
+a.nav-link{
+    font-weight:500;
+}
+
+a.nav-link:hover{
+    background-color: gainsboro;
+    text-decoration: none;
+    color: inherit;
+}
+a.nav-link:active{
+    background-color: grey;
+    color: rgb(209, 207, 207);
+}
+
+a.dropdown-item:active{
+    color: black;
+    background-color: rgb(211, 208, 208);
+
+}
+a.dropdown-item:hover{
+    color:black;
+
+}
+
+a.nav-link.dropdown-toggle{
+    color: black;
+}
+
+a.nav-link.dropdown-toggle:active{
+    color: black;
+}
+
+.carousel-item{
+    height: 600px;
+}
+
+img.d-block.w-100{
+    height: 600px;
+    width: 500px;
+    object-fit: cover;
+}
+
+div.container-fluid{
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    border: 2px solid rgb(70, 70, 70);
+    margin-top: 70px;
+    margin-bottom: 170px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.bg-body-tertiary.text-center.text-lg-start{
+    background-color: rgb(70, 70, 70);
+    bottom: 0;
+    width: 100%;
+    color: white;
+
+}
+
+.card.p-3{
+    width: 50%;
+    text-align:center;
+    border: 0;
+    margin: auto;
+    margin-top: 20px;
+    text-indent: 10px;
+
+
+}
+
+.models-title{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.btn.btn-light {
+    background-color: white;
+    color: black;
+    border: 0;
+    position: relative;
+    font-weight: bold;
+}
+
+.btn.btn-primary:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+.btn.btn-primary:active {
+    background-color: grey;
+    color: rgb(209, 207, 207);
+}
+
+.col {
+    padding-bottom: 12px;
+}
+
+
+.motorsport-title{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+
+}
+
+.btn.btn-danger{
+    font-weight: bolder;
+    margin: 0;
+    width: 30%;
+}
+
+.motorsport-button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top:-100px;
+    z-index: 1;
+    position:relative;
+}
+
+.motorsport.container-fluid{
+    width: 100%;
+    margin: 0;
+    border: 0px;
+
+}
+
+.card.container-fluid{
+    border: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+
+}
+
+.motorsport-pp{
+    width: 100%;
+    margin: 0;
+
+}
+
+p.card-text{
+    width: 100%;
+    text-align: justify;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 25px;
+
+}
+
+.motorsport-image{
+    margin: 0;
+    width: 100%;
+    opacity: 10%;
+}
+
+.blockquote.mb-0.motorsport-text{
+    top:20%;
+    font-weight:500;
+    text-indent: 10px;
+    text-align: center;
+}
+
+.history-b-title{
+    text-align: center;
+    padding: 50px;
+    font-size: 35px;
+}
+
+div.row{
+    padding: 15px;
+    border: 0;
+
+}
+
+div.card.w-70{
+    border: 0;
+    background-color: white;
+}
+
+div.row-icons{
+   padding: 5px;
+}
+i.fa-solid.fa-gas-pump.fa-solid.fa-gauge
+{
+    padding: 10px;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.spacer{
+    height: 100px;
+}
+
+#projects p{
+    text-indent: 50px;
+}
+
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.car-animation-left {
+    opacity: 0;
+    animation: fadeLeft 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeRight {
+    from {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.text-animation-right {
+    opacity: 0;
+    animation: fadeRight 0.8s ease-in-out forwards;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+.card.mt-2.mx-auto.p-4.bg-light{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*updates*/
+
+.video-wrapper{
+   width: 100%;
+   height: 100%;
+
+}
+
+.video-wrapper video{
+    margin-top:0px;
+    width: 100%;
+    height:650px;
+    object-fit: cover;
+    z-index: -1;
+    position: relative;
+}
+
+.fa-quote-left{
+    font-size: 5em;
+    margin-right: .5em;
+}
+
+#text-under-slider blockquote p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.box-wrapper{
+    position: relative;
+}
+
+.image-block{
+    height: 250px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.gallery-container img {
+    height: 250px;
+    object-fit: cover;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-column {
+    padding: 0 15px;
+}
+a.footer-buttons:hover{
+    color: gray;
+}
+.btn.btn-warning{
+    background-color: #EBD698;
+    border-color: #EBD698;
+    font-weight:500;
+}
+
+.btn.btn-warning:hover {
+    background-color: #f0cb5d;
+    border-color: #f0cb5d;
+}
+
+.btn.btn-warning:active {
+    background-color: #ecba22;
+    border-color: #ecba22;
+}
